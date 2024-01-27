@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+:root{
+
+    /* definir les varibles comme couleur */
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+   --Off-Black:hsl(0, 0%, 8%);
+   --Green: hsl(75, 94%, 57%);
+}
+/* selecteur type balise  */
+body{
+    /* modifie la police de tous les texte  */
+    font-family: 'Inter', sans-serif;
+    /* modifie la couleur du fond  */
+    background-color: var(--Off-Black);
+    text-align: center;
+
+    display:grid;
+   place-items:center;
+   min-height:100vh;
+
+}
+main{
+   background-color: var(--Dark-Grey);
+   color: var(--White);
+   width: 400px;
+
+   
+
+}
+img{
+    /* forme image  */
+    border-radius: 50%; 
+    width: 140px;
+}
+ul{
+    list-style: none;
+
+}
+li{
+    background-color: var(--Grey);
+    /* separer  les list */
+    margin: 15px; 
+
+    padding: 13px;
+    border-radius: 10px;
+}
+#location{
+    color: var(--Green);
+}
+
